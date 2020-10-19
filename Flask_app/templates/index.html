@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.hed1{
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <img src="https://cricketaddictor.com/wp-content/uploads/2020/09/ipl-is-back-dream11-Logo-for-website-thumbnail.jpg" alt="Snow" style="width:100%;">
+  <div class="centered">
+	<form method="POST" action="/submitted">
+  <label style="color:#f5ad42;font-size:100%;" for="cars">Choose a Item:</label>
+  <select name="team" id="cars">
+      <option value="select">Please select</option>
+    <option value="CSK">chennai super kings</option>
+    <option value="DC">delhi capitals</option>
+    <option value="KP">kings xi punjab</option>
+    <option value="KKR">kolkata knight riders</option>
+    <option value="MI">mumbai indians</option>
+    <option value="RR">rajasthan royals</option>
+    <option value="RCB">royal challengers bangalore</option>
+    <option value="SRH">sunrisers hyderabad</option>
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+  </div>
+  <div style="color:#f5ad42;font-size:200%;top:28%;left:50%;" class="hed1"> Welcome to IPL festival </div>
+
+</div>
+  
+
+</body>
+</html> 
